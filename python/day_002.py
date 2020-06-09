@@ -27,7 +27,7 @@ def simple_sum_arr(lst):
 
 def no_division_sum_arr(lst):
     output=[]
-    for i in lst:
+    for num in lst:
         total=1
 
         for num in lst[1:]:   # each number in the list--except for the first--is mulitplied with every other
