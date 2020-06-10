@@ -4,17 +4,18 @@
 
 #Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
+# serialize by using recursion to traverse the tree
+def serialize( node ): 
 
-def serialize(node): # serialize by using recursion to traverse the tree
     out=[]
 
     # the logic will attempt to go as deepand as far to the right as it can before backtracking up and left
     # as it traverses the array, it will recursively add the values to a string
+
     if isinstance(node.right, Node): # checks for a 'deeper' node to the right, traverses to it if possible
         out=out+serialize(node.right)
     else: 
         out=out+[None]
-
 
     if isinstance(node.left, Node): # check for a 'deeper' node to the left, traverses to it if possible
         out=out+serialize(node.left)
@@ -26,16 +27,19 @@ def serialize(node): # serialize by using recursion to traverse the tree
     return out
 
 
-def deserialize(string): # deconstructs the string in reverse recursively
+# deconstructs the string in reverse recursively
+def deserialize( string ): 
+
     val = string.pop()
+
     if val==None:
         return None
+
     else:
         return Node(val, deserialize(string),deserialize(string))
 
 
 ### TEST CODE ###
-    
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val
