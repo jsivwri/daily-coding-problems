@@ -9,10 +9,11 @@
 
 # A simple solution
 
-def simple_sum_arr(lst):
+def simple_sum_arr( lst ): # solve by dividing the product of the array by each element
 
     output=[]
     total=1
+
     for num in lst: # a loop to calculate the total product of the the array
         if num==0:
             return("this method doesn't support 0 in array")
@@ -25,8 +26,10 @@ def simple_sum_arr(lst):
 
 # A solution to the no division follow up
 
-def no_division_sum_arr(lst):
+def no_division_sum_arr( lst ): 
+
     output=[]
+
     for num in lst:
         total=1
 
