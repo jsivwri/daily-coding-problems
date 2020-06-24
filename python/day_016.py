@@ -10,25 +10,27 @@
 # You should be as efficient with time and space as possible.
 
 class Log:
-    def __init__(self):
-        self.log = []
+    def __init__(self, n):
+        self.log = [None for _ in range(n)]
         self.id_register = 0
+        self.n = n
     
     def record(self, order_id):
+        self.log.pop(0)
         self.log += [order_id]
         self.id_register += 1
 
     def get_last(self, i):
-        if i < 1:
-            return "i must be greater than 0"
-        return self.log[self.id_register-i]
+        return self.log[self.n-i]
     
 # TEST CODE
 
-order_log = Log()
+order_log = Log(4)
 
 order_log.record("001")
 order_log.record("002")
 order_log.record("003")
+order_log.record("004")
+order_log.record("005")
 
-assert order_log.get_last(2) == "002"
+assert order_log.get_last(2) == "004"
