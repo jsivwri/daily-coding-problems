@@ -374,3 +374,11 @@ This problem was asked by Google.
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between "kitten" and "sitting" is three: substitute the "k" for "s", substitute the "e" for "i", and append a "g".
 
 Given two strings, compute the edit distance between them.
+
+### PROBLEM 32 [HARD]
+
+This problem was asked by Jane Street.
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
