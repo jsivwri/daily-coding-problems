@@ -15,7 +15,6 @@ def rgb_filter(rgb_arr):
     g_pos = 0
     b_pos = 0
     pointer = 0
-    swap_count = r_count + g_count + b_count
 
     # helper to make swap code simpler
     def swap_helper(pointer, pos, count):
