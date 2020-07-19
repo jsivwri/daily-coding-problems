@@ -459,3 +459,13 @@ Conway's Game of Life takes place on an infinite two-dimensional board of square
 Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 
 You can represent a live cell with an asterisk `(*)` and a dead cell with a dot `(.)`.
+
+### PROBLEM 40 [MEDIUM]
+
+This problem was asked by Google.
+
+Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
+
+For example, given `[6, 1, 3, 3, 3, 6, 6]`, return 1. Given `[13, 19, 13, 13]`, return 19.
+
+Do this in O(N) time and O(1) space.
