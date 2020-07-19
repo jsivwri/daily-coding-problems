@@ -460,7 +460,7 @@ Implement Conway's Game of Life. It should be able to be initialized with a star
 
 You can represent a live cell with an asterisk `(*)` and a dead cell with a dot `(.)`.
 
-### PROBLEM 40 [MEDIUM]
+### PROBLEM 40 [HARD]
 
 This problem was asked by Google.
 
