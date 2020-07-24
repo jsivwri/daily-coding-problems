@@ -521,3 +521,11 @@ For example, a sorted list has zero inversions. The array `[2, 4, 1, 3, 5]` has 
 This problem was asked by Two Sigma.
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+
+### PROBLEM 46 [HARD]
+
+This problem was asked by Amazon.
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
