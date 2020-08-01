@@ -572,3 +572,21 @@ For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be
 Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
 
 Do this in O(N) time.
+
+### PROBLEM 50 [EASY]
+
+This problem was asked by Microsoft.
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '-', '*', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+```
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+```
+You should return 45, as it is (3 + 2) * (4 + 5).
