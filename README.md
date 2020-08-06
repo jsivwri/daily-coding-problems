@@ -612,7 +612,6 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 Each operation should run in O(1) time.
 
-
 ### PROBLEM 53 [MEDIUM]
 
 This problem was asked by Apple.
