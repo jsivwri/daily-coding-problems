@@ -617,3 +617,11 @@ Each operation should run in O(1) time.
 This problem was asked by Apple.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+
+### PROBLEM 54 [HARD]
+
+This problem was asked by Dropbox.
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
