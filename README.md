@@ -664,3 +664,9 @@ Given such an array, find the index of the element in the array in faster than l
 For example, given the array `[13, 18, 25, 2, 8, 10]` and the element `8`, return `4` (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
+
+### PROBLEM 59 [HARD]
+
+This problem was asked by Google.
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
