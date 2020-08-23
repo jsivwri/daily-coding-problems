@@ -1,3 +1,5 @@
+# JP SIVERTSEN-WRIGHT - DAILY CODING PROBLEM 61
+
 # This problem was asked by Google.
 
 # Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
