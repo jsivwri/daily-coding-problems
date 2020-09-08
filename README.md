@@ -860,5 +860,11 @@ The following input graph:
 `A`
 ```
 [(0, 0)]
-````
+```
 Should return `null`, since we have an infinite loop.
+
+### PROBLEM 73 [EASY]
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, reverse it in-place.
