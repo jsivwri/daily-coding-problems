@@ -1,3 +1,5 @@
+# JP SIVERTSEN-WRIGHT - DAILY CODING PROBLEM 83
+
 # This problem was asked by Google.
 
 # Invert a binary tree.
@@ -16,9 +18,6 @@
 #  c  b
 #  \  / \
 #   f e  d
-
-
-#MEDIUM
 
 class Node:
     def __init__(self, val):
