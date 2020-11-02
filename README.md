@@ -1104,3 +1104,18 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 This question was asked by Google.
 
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
+
+### PROBLEM 91 [EASY]
+
+This problem was asked by Dropbox.
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+```
+functions = []
+for i in range(10):
+    functions.append(lambda : i)
+
+for f in functions:
+    print(f())
+```
